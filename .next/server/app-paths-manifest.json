@@ -1,0 +1,11 @@
+{
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/jobs/update-filters/route": "app/api/jobs/update-filters/route.js",
+  "/api/user/checkFields/route": "app/api/user/checkFields/route.js",
+  "/api/user/getuser/route": "app/api/user/getuser/route.js",
+  "/(main)/jobs/page": "app/(main)/jobs/page.js",
+  "/(main)/summarize/page": "app/(main)/summarize/page.js",
+  "/(main)/resume/templates/page": "app/(main)/resume/templates/page.js",
+  "/(main)/resume/templates/[templateId]/page": "app/(main)/resume/templates/[templateId]/page.js",
+  "/(main)/profile/page": "app/(main)/profile/page.js"
+}
