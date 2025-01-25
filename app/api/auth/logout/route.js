@@ -1,7 +1,7 @@
 import { serialize } from "cookie";
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
-import { Agent } from "@/lib/models/Agent";
+
 
 export async function POST(request) { // `request` is passed as a parameter
   const cookiestore = await cookies();
